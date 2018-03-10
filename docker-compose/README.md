@@ -4,7 +4,9 @@
 
 需要python、後端語言(看人)、sql
 
-只用docker run有點累，這時候看到docker-compose
+只用docker run有點累，而且官方也不建議一個容器多個image
+
+這時候看到docker-compose
 
 可以直接一口氣建置好然後跑起來
 
