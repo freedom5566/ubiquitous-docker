@@ -9,5 +9,15 @@
 這時候看到docker-compose
 
 可以直接一口氣建置好然後跑起來
+***
+好用的指令！
+
+```
+docker-compose config
+```
+類似go語言的`gofmt`，幫你檢查compose文件，文件正確就顯示文件內容，反之就顯示錯誤，這超讚的
+
+
+
 
 
