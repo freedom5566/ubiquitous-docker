@@ -1,0 +1,1 @@
+# mariadb連結phpmyadmin
