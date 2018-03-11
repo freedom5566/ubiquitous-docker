@@ -5,7 +5,7 @@ python+mariadb+phpmyadmin
 ```sh
 ~$ docker build --network=host -t python/db .
 ```
-這邊有個問題，直接建置會一直卡在
+這邊有個問題，直接建置有時候會一直卡在
 ```
 fetch http://dl-cdn.alpinelinux.org/alpine/v3.7/main/x86_64/APKINDEX.tar.gz
 ```
