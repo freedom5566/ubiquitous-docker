@@ -6,10 +6,10 @@
 
 如何使用netwrok把mariadb+phpmyadmin連起來?
 
-1. 建立dockernetwork
+1. 建立docker network
 
 ```sh
-~$ docker network create my_net
+~$ docker network create my_network
 ```
 2. 啟動mariadb並加進網路
 ```sh
