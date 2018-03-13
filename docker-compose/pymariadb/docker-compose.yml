@@ -20,6 +20,8 @@ services:
     image: python/db:latest
     depends_on:
       - db
+    volumes:
+      - /home/louis/python2:/usr/src/myapp
     networks:
       - my_network
     tty: true      
