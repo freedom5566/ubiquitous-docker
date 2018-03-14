@@ -40,6 +40,7 @@ RUN sed -i 's/http\:\/\/dl-cdn.alpinelinux.org/https\:\/\/ftp.yzu.edu.tw\/Linux/
 ```
 元智大學太猛啦！！！！666666666666         
 趕超四大四中餒
+台灣唯一載點......
 
 辦法2
 ```sh
