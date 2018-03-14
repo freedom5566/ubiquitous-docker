@@ -28,3 +28,7 @@ fetch http://dl-cdn.alpinelinux.org/alpine/v3.7/main/x86_64/APKINDEX.tar.gz
 >>> MySQLdb.connect(host="db", user="root", passwd="123", db="HelloTest")
 <_mysql.connection open to 'mysql' at 55f032a2bbb8>
 ```
+
+python語法真的挺直白的......
+
+接下來研究怎麼用nodejs連mariadb了......
