@@ -1,0 +1,31 @@
+version: "3"
+services: 
+  db: 
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: 123
+    volumes:
+      - /home/louis/database:/var/lib/mysql
+    networks:
+      - my_network 
+  phpmyadmin:
+    depends_on:
+      - db
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - 8081:80
+    networks:
+      - my_network
+  node:
+    image: node:8.10.0-alpine
+    depends_on:
+      - db
+    volumes:
+            - /home/louis/nodetest/app/app:/usr/src/myapp
+    networks:
+      - my_network
+    tty: true      
+networks:
+    my_network:
+
+                
