@@ -151,7 +151,7 @@ networks:
 這邊注意node images用的是最一開始乾淨的node不是node/db
 
 
-新增一個`query.js`
+app資料夾內新增一個`query.js`
 
 ```js
 var Client = require('mariasql');
