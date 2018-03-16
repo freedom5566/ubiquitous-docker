@@ -139,7 +139,7 @@ services:
     depends_on:
       - db
     volumes:
-      - /home/louis/nodeMariadb/app/app:/usr/src/myapp
+      - /home/louis/nodeMariadb/app/:/usr/src/myapp
     networks:
       - my_network
     tty: true      

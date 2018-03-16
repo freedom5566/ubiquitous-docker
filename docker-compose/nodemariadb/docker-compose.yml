@@ -21,7 +21,7 @@ services:
     depends_on:
       - db
     volumes:
-      - /home/louis/nodetest/app/app:/usr/src/myapp
+      - /home/louis/nodetest/app/:/usr/src/myapp
     networks:
       - my_network
     tty: true      
