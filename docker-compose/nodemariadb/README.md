@@ -57,10 +57,14 @@ GPU:當然是沒有XDD
 3. `vim` Dockerfile
 
 ```dockerfile
-FROM node:8.10.0-alpine #第一步pull的images
-RUN mkdir -p /usr/src/app #創建一個資料夾，拿來放node安裝後的文件
-WORKDIR /usr/src/app #切換目錄
-COPY package.json /usr/src/app #複製package.json進去容器的/usr/src/app資料夾
+FROM node:8.10.0-alpine 
+#第一步pull的images
+RUN mkdir -p /usr/src/app 
+#創建一個資料夾，拿來放node安裝後的文件
+WORKDIR /usr/src/app 
+#切換目錄
+COPY package.json /usr/src/app 
+#複製package.json進去容器的/usr/src/app資料夾
 
 RUN sed -i 's/http\:\/\/dl-cdn.alpinelinux.org/https\:\/\/ftp.yzu.edu.tw\/Linux/g' /etc/apk/repositories && \
     apk --no-cache --virtual build-dependencies add \
@@ -178,7 +182,7 @@ c.end();
 ```sh
 ~ $ cd nodeMariadb && docker-compose ps
 ```
-找到確認服務都啟動了，就連進node吧
+確認服務都啟動了，就連進node吧
 
 ```sh
 ~ nodeMariadb $ docker-compose exec node sh
