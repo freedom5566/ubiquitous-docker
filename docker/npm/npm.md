@@ -10,8 +10,8 @@
 改改看好了，但是看起來好厚工=_=
 
 這時候又看到有人說可以[eslint --init --registry=otherregistry](https://github.com/naseeihity/LearnToLearn/issues/31)
-但是了一下台灣好像沒有自己的mirror，
-直接用yarn的https://registry.yarnpkg.com試試
+但是看了一下台灣好像沒有自己的mirror，
+直接用yarn的https://registry.yarnpkg.com  試試
 居然成功建立了......震驚
 
 不過剛剛突然想到我幹嘛不直接`--network=host`.....
