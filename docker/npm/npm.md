@@ -2,9 +2,9 @@
 
 本來是想裝個Eslint
 
-可是eslint --init 只能用npm，不能用yarn
-[eslint討論過不加yarn方法](https://github.com/eslint/eslint/pull/9023 "github")
-在docker基本上動不了
+可是eslint --init 他是使用一連串npm install，不能用yarn      
+[eslint開發者討論過不加yarn方法](https://github.com/eslint/eslint/pull/9023 "github")     
+可是npm在docker容器裏面基本上都會卡住
 
 想說去`bin/eslint.js -->lib/config/config-initializer.js -->util/npm-util-->function installSyncSaveDev`
 改改看好了，但是看起來好厚工=_=
