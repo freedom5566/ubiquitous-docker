@@ -1,6 +1,8 @@
 # docker-compose
 node+mariadb+phpmyadmin
-
+        
+有一天突然發現，我根本不用這麼搞剛......直接裝`yarn add mysql`完全沒有安裝相依問題！！大崩潰！！        
+        
 #### 為甚麼我要這樣做？自尋煩惱？ 
 
 由於我的筆電是2007出產的輕筆電       
