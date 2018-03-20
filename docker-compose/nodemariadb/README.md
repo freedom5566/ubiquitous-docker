@@ -2,6 +2,10 @@
 node+mariadb+phpmyadmin
         
 有一天突然發現，我根本不用這麼搞剛......直接裝`yarn add mysql`完全沒有安裝相依問題！！大崩潰！！        
+
+因為node-[mysql](https://github.com/mysqljs/mysql "github")套件現在是完全JS寫的了      
+
+如果使用上碰到問題我會再紀錄的       
         
 #### 為甚麼我要這樣做？自尋煩惱？ 
 
