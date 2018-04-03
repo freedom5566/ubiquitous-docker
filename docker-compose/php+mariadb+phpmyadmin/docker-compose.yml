@@ -27,7 +27,7 @@ services:
       - 8080:80
     networks:
       - my_network
-    working_dir: /usr/src/myapp
+    working_dir: /usr/src/myapp/tp5/public
     command: php -S 0.0.0.0:80
 
     #tty: true
