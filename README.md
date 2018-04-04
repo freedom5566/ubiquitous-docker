@@ -49,6 +49,13 @@ RUN sed -i 's/http\:\/\/dl-cdn.alpinelinux.org/https\:\/\/ftp.yzu.edu.tw\/Linux/
 兩個實際嘗試後，辦法1比較快，快超多！
 
 [alpine各地載點目錄](https://git.alpinelinux.org/cgit/aports/tree/main/alpine-mirrors/mirrors.yaml "good!")
+        
+## 為甚麼列出docker network 的時候總有一個none的 network呢？        
+
+[官方文件](https://docs.docker.com/engine/tutorials/networkingcontainers/#add-containers-to-a-network "doc")沒有提到
+        
+不過找到一個[issues](https://github.com/docker/machine/issues/2221 "githubissues")所以是正常的O_O!      
+
 ## 環境
 ***
 > docker版本:docker-ce 17.05
