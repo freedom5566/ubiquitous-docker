@@ -2,6 +2,7 @@
 
 # 這一切都非常不優雅，請勿模仿
 
+本來想用ADD 可是不支援zip解壓縮
 使用 apk add --no-cache --virtual....
 作git clone時會產生警告，不過沒有大礙
 

@@ -10,7 +10,7 @@ services:
       - my_network 
   php:
     build: ./tkphp
-    image: testxddd:latest
+    image: tkphp:latest
     depends_on:
       - db
     ports:
