@@ -1,0 +1,3 @@
+CREATE DATABASE `HelloTest` CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+CREATE TABLE `HelloTest`.`bulletin` ( `id` INT(10) NOT NULL AUTO_INCREMENT , `article` VARCHAR(100) NOT NULL , `author` VARCHAR(10) NOT NULL , `title` VARCHAR(10) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
