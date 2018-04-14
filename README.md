@@ -54,7 +54,15 @@ RUN sed -i 's/http\:\/\/dl-cdn.alpinelinux.org/https\:\/\/ftp.yzu.edu.tw\/Linux/
 
 [官方文件](https://docs.docker.com/engine/tutorials/networkingcontainers/#add-containers-to-a-network "doc")沒有提到
         
-不過找到一個[issues](https://github.com/docker/machine/issues/2221 "githubissues")所以是正常的O_O!      
+不過找到一個[issues](https://github.com/docker/machine/issues/2221 "githubissues")所以是正常的O_O!  
+
+## vscode1.22.2
+
+常常用vscode的task來跑一堆docker        
+可是1.22.2改版後        
+現在task的args用來放shell指令很不方便了......  
+核心開發人員給出的[建議](https://github.com/Microsoft/vscode/issues/47317 "issue")      
+不要亂改阿！！！！超崩潰耶我 
 
 ## 環境
 ***
