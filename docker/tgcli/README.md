@@ -14,8 +14,8 @@ cp /etc/telegram-cli/tg.pub /etc/telegram-cli/server.pub
 
     telegram-cli -k /etc/telegram-cli/server.pub
 
-phone number: +886 09XXXXXXX
-(手機應該會收到驗證碼)
+phone number: +886 09XXXXXXX        
+(手機應該會收到驗證碼)      
 code ('call' for phone call): XXXXX
 
 剩下的指令操作都在
