@@ -1,7 +1,7 @@
 # 紀錄docker建置各式環境碰到的問題
 
 
-# 紀錄docker本身踩過的雷
+## 紀錄docker本身踩過的雷
 現在不建議用--link了，突然有種學過的東西被時代淘汰的滄桑感?想到高中的vb6.0......
 
 如何使用netwrok把mariadb+phpmyadmin連起來?
@@ -56,13 +56,7 @@ RUN sed -i 's/http\:\/\/dl-cdn.alpinelinux.org/https\:\/\/ftp.yzu.edu.tw\/Linux/
         
 不過找到一個[issues](https://github.com/docker/machine/issues/2221 "githubissues")所以是正常的O_O!  
 
-## vscode1.22.2
 
-常常用vscode的task來跑一堆docker        
-可是1.22.2改版後        
-現在task的args用來放shell指令很不方便了......  
-核心開發人員給出的[建議](https://github.com/Microsoft/vscode/issues/47317 "issue")      
-不要亂改阿！！！！超崩潰耶我 
 
 ## 環境
 ***
